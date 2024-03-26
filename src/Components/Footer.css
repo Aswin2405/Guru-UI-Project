@@ -1,0 +1,36 @@
+   .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-links {
+    margin-bottom: 20px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .social-links {
+      margin-bottom: 10px;
+    }
+  
+    .social-link {
+      margin: 0 5px;
+    }
+  
+    .copyright {
+      font-size: 12px;
+    }
+  }
+  

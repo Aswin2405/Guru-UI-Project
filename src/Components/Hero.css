@@ -1,0 +1,93 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+
+  .text-container h1 {
+   font-size: 65px;
+  }
+  
+  .hero-text-container p {
+    line-height: 1.5;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+
+  .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column; /* Adjust flex direction for mobile */
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    order: -1; /* Set order to -1 to move image to the beginning */
+  }
+  
+  .image-container img {
+    width: 100%; /* Ensure image fills its container */
+    max-width: 400px; /* Adjust max width as needed */
+    height: auto;
+    margin-top: 45px;
+  }
+  
+  .text-container {
+    text-align: center; /* Center text on mobile */
+  }
+  
+  .hero-text-container p {
+    line-height: 1.5;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .hero-content {
+    padding: 0 20px; /* Add padding for smaller devices */
+    text-align: center; /* Center content on smaller devices */
+  }
+
+  .hero-text-container h1 {
+    font-size: 36px; /* Adjust font size for smaller devices */
+    margin-bottom: 10px; /* Add margin between h1 and p tags */
+  }
+
+  .hero-text-container p {
+    font-size: 20px; /* Adjust font size for smaller devices */
+  }
+  
+}

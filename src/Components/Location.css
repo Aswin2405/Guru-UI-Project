@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1024px) {
+.location-container {
+    margin-left:100px;
+    align-self: center;
+}
+
+.location-container p{
+    font-weight:bold;
+    font-size:24px
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .location-container {
+        text-align: center; 
+    }
+    .location-container h1{
+        font-size:27px;
+    }
+    
+    .location-container p{
+        font-weight:bold;
+        font-size:24px
+    }
+  }

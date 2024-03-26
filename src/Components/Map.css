@@ -1,0 +1,17 @@
+.google-map-code{
+    padding: 20px;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .google-map-code {
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .google-map-code iframe {
+      width: auto;
+      height: 300px;
+    }
+  }
